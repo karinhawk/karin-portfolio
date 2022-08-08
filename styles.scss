@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap');
+
+$font-body: "Roboto Slab" , sans-serif;
+$color-primary: rgb(255, 255, 255);
+$color-secondary:rgb(156, 153, 70);
+$color-tertiary: rgb(239, 131, 16);
+
+* {
+    font-family: $font-body;
+    background-color: $color-primary;
+}
+
+div {
+    border: 1px solid red;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-name {
+    
+}
+
+.nav-link {
+    margin: 20px;
+    font-weight: 600;
+    color: rgb(255, 123, 0);
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+#karin-picture {
+    width: auto;
+    height: 450px;
+    border-radius: 3px;
+}
+
+#introduction {
+    font-size: 55px;
+    padding: 10px;
+}
+
+#intro-and-picture {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 50px;
+}
+
+.card {
+    border: 1px solid $color-secondary;
+    height: 250px;
+    width: 300px;
+    padding: 10px;
+    margin: 15px;
+}
+

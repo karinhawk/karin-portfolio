@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap");
+* {
+  font-family: "Roboto Slab", sans-serif;
+  background-color: white;
+}
+
+div {
+  border: 1px solid red;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  margin: 20px;
+  font-weight: 600;
+  color: #ff7b00;
+}
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+#karin-picture {
+  width: auto;
+  height: 450px;
+  border-radius: 3px;
+}
+
+#introduction {
+  font-size: 55px;
+  padding: 10px;
+}
+
+#intro-and-picture {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 50px;
+}
+
+.card {
+  border: 1px solid #9c9946;
+  height: 250px;
+  width: 300px;
+  padding: 10px;
+  margin: 15px;
+}
