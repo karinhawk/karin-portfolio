@@ -15,7 +15,7 @@ $color-text: rgb(82, 74, 69);
 }
 
 div {
-    border: 1px solid red;
+    border: 1px solid rgb(135, 24, 24);
 }
 
 a:link {
@@ -46,6 +46,12 @@ header {
     font-weight: 600;
     font-size: 22px;
     color: $color-tertiary;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: $color-secondary;
+    font-size: 25px;
 }
 
 #contact {
@@ -70,6 +76,7 @@ header {
     width: 800px;
     margin: auto;
     padding: 10px;
+    padding-right: 50px;
     color: $color-text;
 }
 
@@ -92,6 +99,7 @@ header {
 .heading {
     color: $color-text;
     margin-top: 10px;
+    margin-bottom: 75px;
     text-align: center;
     text-shadow: 2px 2px $color-highlight;
 }
@@ -100,17 +108,34 @@ header {
     margin-top: 150px;
 }
 
+#skills-p {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
 #skill-icon-group {
     display: flex;
     justify-content: space-around;
     width: max-content;
     margin: auto;
+    padding-top: 20px;
 }
 
 .skill-icon {
-    margin: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
     height: 50px;
     width: auto;
+    transition: 0.15s ease-in-out;
+}
+
+.skill-icon:hover {
+    -webkit-transform: translateY(6px);
+}
+
+.skill-tag {
+    text-align: center;
+    margin: 5px;
 }
 
 #my-projects {
@@ -123,11 +148,13 @@ header {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 100px;
+    padding: 20px;
+    margin-bottom: 100px;;
 }
 
 .card {
-    border: 1px solid $color-secondary;
+    border: 1px solid $color-tertiary;
+    background-color: $color-tertiary;
     height: 150px;
     width: 200px;
     padding: 10px;
@@ -137,10 +164,10 @@ header {
 #about-me {
     background-color: $color-secondary;
     color: $color-primary;
-    height: 300px;
+    height: auto;
     
     h1 {
-        margin: 20px;
+        padding: 20px;
         background-color: $color-secondary;
         padding-left: 20px;
         text-shadow: 3px 3px $color-tertiary;
@@ -150,6 +177,16 @@ header {
         font-size: 20px;
         padding: 20px;
         padding-right: 300px;
+        height: auto;
         max-width: 1000px;
     }
+}
+
+footer {
+    height: 100px;
+    background-color: $color-secondary;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $color-tertiary;
 }
