@@ -14,10 +14,46 @@ header {
   justify-content: space-between;
 }
 
+#header-name {
+  color: #c73945;
+  font-size: 60px;
+  margin: 10px;
+}
+
 .nav-link {
   margin: 20px;
   font-weight: 600;
-  color: #ff7b00;
+  color: #ef7410;
+}
+
+#karin-picture {
+  width: auto;
+  height: 450px;
+  border-radius: 30px;
+  box-shadow: 10px 10px #ef7410;
+}
+
+#introduction {
+  font-size: 55px;
+  padding: 10px;
+  color: #524a45;
+}
+
+#karin {
+  font-style: oblique;
+  color: #c73945;
+}
+
+#intro-and-picture {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  padding: 50px;
+}
+
+.heading {
+  color: #524a45;
 }
 
 #projects {
@@ -26,31 +62,29 @@ header {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding: 5px;
-}
-
-#karin-picture {
-  width: auto;
-  height: 450px;
-  border-radius: 3px;
-}
-
-#introduction {
-  font-size: 55px;
-  padding: 10px;
-}
-
-#intro-and-picture {
-  display: flex;
-  justify-content: space-around;
-  margin: auto;
-  padding: 50px;
+  padding: 100px;
 }
 
 .card {
-  border: 1px solid #9c9946;
+  border: 1px solid #c73945;
   height: 250px;
   width: 300px;
   padding: 10px;
-  margin: 15px;
+  margin: 50px;
+}
+
+#about-me {
+  padding: 20px;
+  background-color: #c73945;
+  color: white;
+}
+#about-me h1 {
+  background-color: #c73945;
+  padding-left: 20px;
+  text-shadow: 3px 3px #ef7410;
+}
+#about-me p {
+  background-color: #c73945;
+  padding: 20px;
+  padding-right: 300px;
 }
