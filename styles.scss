@@ -2,17 +2,28 @@
 
 $font-body: "Roboto Slab" , sans-serif;
 $color-primary: rgb(255, 255, 255);
-$color-secondary:rgb(199, 57, 69);
+$color-secondary:rgb(199, 57, 83);
 $color-tertiary: rgb(239, 116, 16);
+$color-highlight: rgb(228, 154, 139);
 $color-text: rgb(82, 74, 69); 
 
 * {
     font-family: $font-body;
     background-color: $color-primary;
+    margin: 0;
+    padding: 0;
 }
 
 div {
     border: 1px solid red;
+}
+
+a:link {
+text-decoration: none;
+}
+    
+a:visited {
+    text-decoration: none;
 }
 
 header {
@@ -25,23 +36,39 @@ header {
     color:$color-secondary;
     font-size: 60px;
     margin: 10px;
+    padding-left: 30px;
+    text-shadow: 3px 3px $color-tertiary;
 }
+
 
 .nav-link {
     margin: 20px;
     font-weight: 600;
+    font-size: 22px;
     color: $color-tertiary;
+}
+
+#contact {
+    border: 1px solid $color-tertiary;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: $color-secondary;
+    text-shadow: 0.5px 0.5px $color-tertiary;
+    color: $color-highlight;
 }
 
 #karin-picture {
     width: auto;
-    height: 450px;
+    height: 500px;
     border-radius: 30px;
+    margin-right: 50px;
     box-shadow: 10px 10px $color-tertiary;
 }
 
 #introduction {
     font-size: 55px;
+    width: 800px;
+    margin: auto;
     padding: 10px;
     color: $color-text;
 }
@@ -56,11 +83,38 @@ header {
     justify-content: space-evenly;
     align-items: center;
     margin: auto;
-    padding: 50px;
+    margin-top: 50px;
+    padding: 30px;
+    padding-left: 150px;
+    padding-right: 80px;
 }
 
 .heading {
-    color: $color-text
+    color: $color-text;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px $color-highlight;
+}
+
+#technical-skills {
+    margin-top: 150px;
+}
+
+#skill-icon-group {
+    display: flex;
+    justify-content: space-around;
+    width: max-content;
+    margin: auto;
+}
+
+.skill-icon {
+    margin: 30px;
+    height: 50px;
+    width: auto;
+}
+
+#my-projects {
+    margin-top: 100px;
 }
 
 #projects {
@@ -74,25 +128,28 @@ header {
 
 .card {
     border: 1px solid $color-secondary;
-    height: 250px;
-    width: 300px;
+    height: 150px;
+    width: 200px;
     padding: 10px;
     margin: 50px;
 }
 
 #about-me {
-    padding: 20px;
     background-color: $color-secondary;
     color: $color-primary;
+    height: 300px;
+    
     h1 {
+        margin: 20px;
         background-color: $color-secondary;
         padding-left: 20px;
         text-shadow: 3px 3px $color-tertiary;
-
     }
     p {
         background-color: $color-secondary;
+        font-size: 20px;
         padding: 20px;
         padding-right: 300px;
+        max-width: 1000px;
     }
 }

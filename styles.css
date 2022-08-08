@@ -2,10 +2,20 @@
 * {
   font-family: "Roboto Slab", sans-serif;
   background-color: white;
+  margin: 0;
+  padding: 0;
 }
 
 div {
   border: 1px solid red;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 header {
@@ -15,33 +25,48 @@ header {
 }
 
 #header-name {
-  color: #c73945;
+  color: #c73953;
   font-size: 60px;
   margin: 10px;
+  padding-left: 30px;
+  text-shadow: 3px 3px #ef7410;
 }
 
 .nav-link {
   margin: 20px;
   font-weight: 600;
+  font-size: 22px;
   color: #ef7410;
+}
+
+#contact {
+  border: 1px solid #ef7410;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #c73953;
+  text-shadow: 0.5px 0.5px #ef7410;
+  color: #e49a8b;
 }
 
 #karin-picture {
   width: auto;
-  height: 450px;
+  height: 500px;
   border-radius: 30px;
+  margin-right: 50px;
   box-shadow: 10px 10px #ef7410;
 }
 
 #introduction {
   font-size: 55px;
+  width: 800px;
+  margin: auto;
   padding: 10px;
   color: #524a45;
 }
 
 #karin {
   font-style: oblique;
-  color: #c73945;
+  color: #c73953;
 }
 
 #intro-and-picture {
@@ -49,11 +74,38 @@ header {
   justify-content: space-evenly;
   align-items: center;
   margin: auto;
-  padding: 50px;
+  margin-top: 50px;
+  padding: 30px;
+  padding-left: 150px;
+  padding-right: 80px;
 }
 
 .heading {
   color: #524a45;
+  margin-top: 10px;
+  text-align: center;
+  text-shadow: 2px 2px #e49a8b;
+}
+
+#technical-skills {
+  margin-top: 150px;
+}
+
+#skill-icon-group {
+  display: flex;
+  justify-content: space-around;
+  width: max-content;
+  margin: auto;
+}
+
+.skill-icon {
+  margin: 30px;
+  height: 50px;
+  width: auto;
+}
+
+#my-projects {
+  margin-top: 100px;
 }
 
 #projects {
@@ -66,25 +118,28 @@ header {
 }
 
 .card {
-  border: 1px solid #c73945;
-  height: 250px;
-  width: 300px;
+  border: 1px solid #c73953;
+  height: 150px;
+  width: 200px;
   padding: 10px;
   margin: 50px;
 }
 
 #about-me {
-  padding: 20px;
-  background-color: #c73945;
+  background-color: #c73953;
   color: white;
+  height: 300px;
 }
 #about-me h1 {
-  background-color: #c73945;
+  margin: 20px;
+  background-color: #c73953;
   padding-left: 20px;
   text-shadow: 3px 3px #ef7410;
 }
 #about-me p {
-  background-color: #c73945;
+  background-color: #c73953;
+  font-size: 20px;
   padding: 20px;
   padding-right: 300px;
+  max-width: 1000px;
 }
