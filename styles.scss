@@ -14,8 +14,18 @@ $color-text: rgb(82, 74, 69);
     padding: 0;
 }
 
+body {
+    width: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
 div {
-    border: 1px solid rgb(135, 24, 24);
+    border: 1px solid rgb(255, 254, 254);
 }
 
 a:link {
@@ -38,8 +48,12 @@ header {
     margin: 10px;
     padding-left: 30px;
     text-shadow: 3px 3px $color-tertiary;
+    transition: 0.3s ease-in-out;
 }
 
+#header-name:hover {
+    -webkit-transform: translateY(6px);
+}
 
 .nav-link {
     margin: 20px;
@@ -65,18 +79,17 @@ header {
 
 #karin-picture {
     width: auto;
-    height: 500px;
+    height: 400px;
     border-radius: 30px;
-    margin-right: 50px;
     box-shadow: 10px 10px $color-tertiary;
 }
 
 #introduction {
-    font-size: 55px;
-    width: 800px;
+    font-size: 45px;
+    width: 700px;
     margin: auto;
     padding: 10px;
-    padding-right: 50px;
+    padding-left: 100px;
     color: $color-text;
 }
 
@@ -91,8 +104,7 @@ header {
     align-items: center;
     margin: auto;
     margin-top: 50px;
-    padding: 30px;
-    padding-left: 150px;
+    padding: 20px;
     padding-right: 80px;
 }
 
@@ -116,7 +128,7 @@ header {
 #skill-icon-group {
     display: flex;
     justify-content: space-around;
-    width: max-content;
+    width: auto;
     margin: auto;
     padding-top: 20px;
 }
@@ -152,13 +164,31 @@ header {
     margin-bottom: 100px;;
 }
 
+.project-icon {
+    height: auto;
+    width: 180px;
+    margin: 10px;
+}
+
 .card {
     border: 1px solid $color-tertiary;
+    border-radius: 3px;
+    box-shadow: 5px 5px $color-secondary;
     background-color: $color-tertiary;
-    height: 150px;
+    height: auto;
     width: 200px;
     padding: 10px;
     margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    p {
+        background-color: $color-tertiary;
+        margin: 5px;
+        text-align: center;
+        color: $color-primary;
+    }
 }
 
 #about-me {
@@ -189,18 +219,21 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    h3 {
+        background-color: $color-tertiary;
+        color: $color-primary;
+    }
+    h4 {
+        background-color: $color-tertiary;
+        font-style: italic;
+        color: $color-primary;
+        font-size: 10px;
+    }
 }
 
-h3 {
-    background-color: $color-tertiary;
-    color: $color-primary;
-}
-h4 {
-    background-color: $color-tertiary;
-    font-style: italic;
-    color: $color-primary;
-    font-size: 10px;
-}
+
+
 
 #linkedin {
     text-decoration: none;
@@ -213,3 +246,13 @@ h4 {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .main {
+        width: 100%;
+        height:60%;
+        flex-wrap: wrap;
+    }
+    #skill-icon-group {
+        flex-wrap: wrap;
+    }
+}
