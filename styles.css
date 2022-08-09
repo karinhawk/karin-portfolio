@@ -175,8 +175,31 @@ header {
 footer {
   height: 100px;
   background-color: #c73953;
+  background-color: #ef7410;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+}
+
+h3 {
+  background-color: #ef7410;
+  color: white;
+}
+
+h4 {
+  background-color: #ef7410;
+  font-style: italic;
+  color: white;
+  font-size: 10px;
+}
+
+#linkedin {
+  text-decoration: none;
+  background-color: #ef7410;
+  color: white;
+}
+#linkedin img {
+  height: 40px;
+  width: auto;
   background-color: #ef7410;
 }

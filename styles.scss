@@ -19,7 +19,7 @@ div {
 }
 
 a:link {
-text-decoration: none;
+    text-decoration: none;
 }
     
 a:visited {
@@ -185,8 +185,31 @@ header {
 footer {
     height: 100px;
     background-color: $color-secondary;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     background-color: $color-tertiary;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+h3 {
+    background-color: $color-tertiary;
+    color: $color-primary;
+}
+h4 {
+    background-color: $color-tertiary;
+    font-style: italic;
+    color: $color-primary;
+    font-size: 10px;
+}
+
+#linkedin {
+    text-decoration: none;
+    background-color: $color-tertiary;
+    color: $color-primary;
+    img {
+        height:40px;
+    width: auto;
+    background-color: $color-tertiary;
+    }
+}
+
