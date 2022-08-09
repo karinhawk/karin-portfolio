@@ -8,16 +8,13 @@
 
 body {
   width: auto;
+  margin: auto;
 }
 
 main {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-}
-
-div {
-  border: 1px solid #fffefe;
 }
 
 a:link {
@@ -31,6 +28,7 @@ a:visited {
 header {
   display: flex;
   align-items: center;
+  width: auto;
   justify-content: space-between;
 }
 
@@ -78,7 +76,7 @@ header {
 
 #introduction {
   font-size: 45px;
-  width: 700px;
+  width: auto;
   margin: auto;
   padding: 10px;
   padding-left: 100px;
@@ -120,7 +118,7 @@ header {
 #skill-icon-group {
   display: flex;
   justify-content: space-around;
-  width: auto;
+  width: 90%;
   margin: auto;
   padding-top: 20px;
 }
@@ -198,9 +196,8 @@ header {
   background-color: #c73953;
   font-size: 20px;
   padding: 20px;
-  padding-right: 300px;
+  text-align: left;
   height: auto;
-  max-width: 1000px;
 }
 
 footer {
@@ -227,9 +224,11 @@ footer h4 {
   background-color: #ef7410;
   color: white;
 }
-#linkedin img {
+
+#linkedinimg {
   height: 40px;
   width: auto;
+  color: white;
   background-color: #ef7410;
 }
 
@@ -240,7 +239,32 @@ footer h4 {
     flex-wrap: wrap;
   }
 
+  header {
+    flex-direction: column;
+  }
+
+  #into-and-picture {
+    flex-wrap: wrap;
+  }
+
   #skill-icon-group {
     flex-wrap: wrap;
+  }
+
+  #karin-picture {
+    width: auto;
+    height: 200px;
+  }
+
+  #introduction {
+    font-size: 30px;
+  }
+
+  #about-me {
+    height: auto;
+  }
+  #about-me p {
+    font-size: 10px;
+    margin: auto;
   }
 }
