@@ -6,15 +6,6 @@
   padding: 0;
 }
 
-.headings {
-  color: #524a45;
-  font-size: 40px;
-  margin-top: 100px;
-  margin-bottom: 75px;
-  text-align: center;
-  text-shadow: 2px 2px #e49a8b;
-}
-
 a:link {
   text-decoration: none;
 }
@@ -205,47 +196,4 @@ main .about__text {
   width: auto;
   color: white;
   background-color: #ef7410;
-}
-
-@media screen and (max-width: 768px) {
-  .main {
-    width: 100%;
-    height: 60%;
-    flex-wrap: wrap;
-  }
-
-  .header {
-    flex-direction: column;
-  }
-
-  .intro {
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    padding-right: 50px;
-    margin-left: 100px;
-  }
-  .intro__img {
-    width: auto;
-    height: 200px;
-    margin-bottom: 40px;
-    margin-left: 130px;
-  }
-  .intro__text {
-    font-size: 30px;
-    margin-top: 50px;
-    text-align: center;
-  }
-
-  .skills__flex {
-    flex-wrap: wrap;
-  }
-
-  .about {
-    height: auto;
-  }
-  .about__text {
-    font-size: 10px;
-    margin: auto;
-  }
 }
