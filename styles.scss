@@ -65,6 +65,7 @@ header {
 .nav-link:hover {
     color: $color-secondary;
     font-size: 25px;
+    margin:0;
 }
 
 #contact {
@@ -80,6 +81,7 @@ header {
     width: auto;
     height: 400px;
     border-radius: 30px;
+    margin-right: 100px;
     box-shadow: 10px 10px $color-tertiary;
 }
 
@@ -117,6 +119,10 @@ header {
 
 #technical-skills {
     margin-top: 150px;
+
+    p {
+        font-style: italic;
+    }
 }
 
 #skills-p {
@@ -200,14 +206,14 @@ header {
     h1 {
         padding: 20px;
         background-color: $color-secondary;
-        padding-left: 20px;
+        padding-left: 30px;
         text-shadow: 3px 3px $color-tertiary;
     }
 
     p {
         background-color: $color-secondary;
         font-size: 20px;
-        padding: 20px;
+        padding: 30px;
         text-align: left;
         height: auto;
     }
@@ -234,13 +240,13 @@ footer {
     }
 }
 
-#linkedin {
+.footer-link {
     text-decoration: none;
     background-color: $color-tertiary;
     color: $color-primary;
 }
 
-#linkedinimg {
+.footer-img {
     height: 40px;
     width: auto;
     color: $color-primary;
@@ -268,7 +274,8 @@ footer {
 
     #karin-picture {
         width: auto;
-        height: 200px;
+        height: 300px;
+        margin: 0;
     }
 
     #introduction {
