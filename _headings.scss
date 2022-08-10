@@ -1,0 +1,9 @@
+@use "_base" as *;
+
+.heading {
+    color: $color-text;
+    margin-top: 10px;
+    margin-bottom: 75px;
+    text-align: center;
+    text-shadow: 2px 2px $color-highlight;
+}

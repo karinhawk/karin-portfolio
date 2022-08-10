@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap');
+
+$font-body: "Roboto Slab", sans-serif;
+
+$color-primary: rgb(255, 255, 255);
+$color-secondary:rgb(199, 57, 83);
+$color-tertiary: rgb(239, 116, 16);
+$color-highlight: rgb(228, 154, 139);
+$color-text: rgb(82, 74, 69);
+
+* {
+    font-family: $font-body;
+    background-color: $color-primary;
+    margin: 0;
+    padding: 0;
+}
