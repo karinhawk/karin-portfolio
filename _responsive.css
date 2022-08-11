@@ -16,6 +16,9 @@
   .header {
     flex-direction: column;
   }
+  .header__logo {
+    margin-bottom: 30px;
+  }
 
   .intro {
     flex-direction: column-reverse;

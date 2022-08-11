@@ -9,6 +9,10 @@
 
     .header {
         flex-direction: column;
+
+        &__logo {
+            margin-bottom: 30px;
+        }
     }
 
     .intro {
