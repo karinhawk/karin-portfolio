@@ -10,130 +10,122 @@
 </head>
 
 <body>
-  <header>
-    <h1 id="header-name">Karin</h1>
-    <div id="nav-bar">
+  <header class="header" id="home">
+    <h1 class="header__logo">Karin</h1>
+    <div class="header__nav">
       <nav>
-        <a href="#home" class="nav-link">Home</a>
-        <a href="#about-me" class="nav-link">About</a>
-        <a href="#projects" class="nav-link">Projects</a>
-        <a href="#get_in_touch" class="nav-link" id="contact">Get in Touch</a>
+        <a href="#home" class="header__nav__link">Home</a>
+        <a href="#about" class="header__nav__link">About</a>
+        <a href="#projects" class="header__nav__link">Projects</a>
+        <a href="#" class="header__nav__link header__nav__link--contact" id="contact">Get in Touch</a>
       </nav>
     </div>
   </header>
   <main>
-    <div id="intro-and-picture">
-      <h2 id="introduction">
-        Hi, I'm <span id="karin">Karin</span>, a London-based Software Developer
+    <div class="intro">
+      <h2 class="intro__text">
+        Hi, I'm <span class="intro__text--emphasis">Karin</span>, a London-based Software Developer
       </h2>
-      <img id="karin-picture" src="./images/KarinPicture.jpg"
+      <img class="intro__img" src="./images/KarinPicture.jpg"
         alt="A picture of Karin in a dress standing in a garden" />
     </div>
-    <div id="technical-skills">
-      <h1 class="heading">Technical Skills</h1>
-      <p id="skills-p">Skills I've gained so far... always looking to create the fullest stack!</p>
-      <div id="skill-icon-group">
+    <div class="skills">
+      <h1 class="headings skills__heading">Technical Skills</h1>
+      <p class="skills__intro">Skills I've gained so far... always looking to create the fullest stack!</p>
+      <div class="skills__flex">
         <div>
-          <img class="skill-icon" src="./images/Vectorhtml.png" alt="html5" />
-          <h3 class="skill-tag">HTML5</h3>
+          <img class="skills__flex__img" src="./images/Vectorhtml.png" alt="html5" />
+          <h3 class="skills__flex__text">HTML5</h3>
         </div>
         <div>
-          <img class="skill-icon" src="./images/VectorGit.png" alt="git" />
-          <h3 class="skill-tag">GIT</h3>
+          <img class="skills__flex__img" src="./images/VectorGit.png" alt="git" />
+          <h3 class="skills__flex__text">GIT</h3>
         </div>
         <div>
-          <img class="skill-icon" src="./images/Vectorcss.png" alt="css3" />
-          <h3 class="skill-tag">CSS3</h3>
+          <img class="skills__flex__img" src="./images/Vectorcss.png" alt="css3" />
+          <h3 class="skills__flex__text">CSS3</h3>
         </div>
         <div>
-          <img class="skill-icon" src="./images/Vectorjavascript.png" alt="javascript" />
-          <h3 class="skill-tag">Javascript</h3>
+          <img class="skills__flex__img" src="./images/Vectorjavascript.png" alt="javascript" />
+          <h3 class="skills__flex__text">Javascript</h3>
         </div>
         <div>
-          <img class="skill-icon" src="./images/Vectorscss.png" alt="scss" />
-          <h3 class="skill-tag">SCSS</h3>
+          <img class="skills__flex__img" src="./images/Vectorscss.png" alt="scss" />
+          <h3 class="skills__flex__text">SCSS</h3>
         </div>
         <div>
-          <img class="skill-icon" src="./images/Vectorbem.png" alt="bem" />
-          <h3 class="skill-tag">BEM</h3>
+          <img class="skills__flex__img" src="./images/Vectorbem.png" alt="bem" />
+          <h3 class="skills__flex__text">BEM</h3>
         </div>
         <div>
-          <img class="skill-icon" src="./images/Vectorreact.png" alt="react" />
-          <h3 class="skill-tag">React</h3>
+          <img class="skills__flex__img" src="./images/Vectorreact.png" alt="react" />
+          <h3 class="skills__flex__text">React</h3>
         </div>
         <div>
-          <img class="skill-icon" src="./images/Vectorspringboot.png" alt="springboot" />
-          <h3 class="skill-tag">Springboot</h3>
+          <img class="skills__flex__img" src="./images/Vectorspringboot.png" alt="springboot" />
+          <h3 class="skills__flex__text">Springboot</h3>
         </div>
         <div>
-          <img class="skill-icon" src="./images/Vectorjava.png" alt="java" />
-          <h3 class="skill-tag">Java</h3>
+          <img class="skills__flex__img" src="./images/Vectorjava.png" alt="java" />
+          <h3 class="skills__flex__text">Java</h3>
         </div>
       </div>
-      <h1 class="heading" id="my-projects">My Projects</h1>
-      <div id="projects">
-        <!--flex wrap these-->
-        <div class="card">
-          <img src="./images/project-icon" class="project-icon">
-          <p>This is a short description of this project I did. It was a very enlightening project which grew my skills
-            in
-            many ways</p>
+      <section class="projects" id="projects">
+        <h1 class="headings projects__heading" id="projects-heading">My Projects</h1>
+        <div class="projects__flex">
+          <!--flex wrap these-->
+          <div class="projects__flex__card">
+            <img src="./images/project-icon" class="projects__flex__card__img" alt="picture of a project I did">
+            <p class="projects__flex__card__text">This is a short description of this project I did. It was a very enlightening project which grew my
+              skills in
+              many ways</p>
+          </div>
+          <div class="projects__flex__card">
+            <img src="./images/project-icon" class="projects__flex__card__img" alt="picture of a project I did">
+            <p class="projects__flex__card__text">This is a short description of this project I did. It was a very enlightening project which grew my
+              skills in
+              many ways</p>
+          </div>
+          <div class="projects__flex__card">
+            <img src="./images/project-icon" class="projects__flex__card__img" alt="picture of a project I did">
+            <p class="projects__flex__card__text">This is a short description of this project I did. It was a very enlightening project which grew my
+              skills in
+              many ways</p>
+          </div>
+          <div class="projects__flex__card">
+            <img src="./images/project-icon" class="projects__flex__card__img" alt="picture of a project I did">
+            <p class="projects__flex__card__text">This is a short description of this project I did. It was a very enlightening project which grew my
+              skills in
+              many ways</p>
+          </div>
+          <div class="projects__flex__card">
+            <img src="./images/project-icon" class="projects__flex__card__img" alt="picture of a project I did">
+            <p class="projects__flex__card__text">This is a short description of this project I did. It was a very enlightening project which grew my
+              skills in
+              many ways</p>
+          </div>
+          <div class="projects__flex__card">
+            <img src="./images/project-icon" class="projects__flex__card__img" alt="picture of a project I did">
+            <p class="projects__flex__card__text">This is a short description of this project I did. It was a very enlightening project which grew my
+              skills in
+              many ways</p>
+          </div>
         </div>
-        <div class="card">
-          <img src="./images/project-icon" class="project-icon">
-          <p>This is a short description of this project I did. It was a very enlightening project which grew my skills
-            in
-            many ways</p>
-        </div>
-        <div class="card">
-          <img src="./images/project-icon" class="project-icon">
-          <p>This is a short description of this project I did. It was a very enlightening project which grew my skills
-            in
-            many ways</p>
-        </div>
-        <div class="card">
-          <img src="./images/project-icon" class="project-icon">
-          <p>This is a short description of this project I did. It was a very enlightening project which grew my skills
-            in
-            many ways</p>
-        </div>
-        <div class="card">
-          <img src="./images/project-icon" class="project-icon">
-          <p>This is a short description of this project I did. It was a very enlightening project which grew my skills
-            in
-            many ways</p>
-        </div>
-        <div class="card">
-          <img src="./images/project-icon" class="project-icon">
-          <p>This is a short description of this project I did. It was a very enlightening project which grew my skills
-            in
-            many ways</p>
-        </div>
-      </div>
-      <div id="about-me">
-        <h1>About Me</h1>
-        <p>
-          Evening. Replenish I seas. Fowl can't open she'd together fifth Lights
-          spirit he greater itself saying said gathering. They're whales days land
-          over them you'll creeping. Grass sixth Multiply god saying. Second Beast
-          female place morning every, sixth darkness let firmament saw earth.
-          Creepeth without won't, sixth fruit years. Sixth day night darkness let
-          creeping all hath living divided tree. Bearing, image and heaven first
-          moveth make god earth female Beginning herb the, days isn't their can't
-          great spirit. Let land after life, so whales be sea air thing have midst
-          have under life beginning make wherein midst bearing wherein days man.
-          Fly divided dominion he abundantly them kind it air seasons together.
-          Behold. Whales from male sixth third him you're open moved.
+      </section>
+      <div class="about" id="about">
+        <h1 class="about__heading">About Me</h1>
+        <p class="about__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae excepturi non qui alias totam placeat expedita quisquam, consequuntur laboriosam modi veritatis nulla magnam assumenda unde natus asperiores, optio officia! Laborum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores et recusandae distinctio temporibus eius perspiciatis delectus, ipsam in sapiente, vero veniam, tempora id? Amet nulla dolor quos aliquam officia. Repellendus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, tempora eum! Saepe necessitatibus fugiat accusantium harum odit, ipsam fugit, animi voluptate maiores quis reprehenderit delectus natus unde excepturi quod molestiae?
         </p>
       </div>
   </main>
-  <footer>
-    <h3 id="get_in_touch">karin.hawksworth@gmail.com</h3>
-    <h4>All Rights Reserved 2022</h4>
-    <a class="footer-link" href="https://github.com/karinhawk" target="_blank"><img class="footer-img"
-        src="./images/github-icon"></a>
-    <a class="footer-link" href="https://www.linkedin.com/in/karin-hawksworth-5b3513171/" target="_blank"><img
-        class="footer-img" src="./images/linkedin"></a>
+  <footer class="footer">
+    <h4 class="footer__heading">karin.hawksworth@gmail.com</h4>
+    <h4 class="footer__rights">All Rights Reserved 2022</h4>
+    <a class="footer__link" href="https://github.com/karinhawk" target="_blank"><img class="footer__link__img"
+        src="./images/github" alt="github icon"></a>
+    <a class="footer__link" href="https://www.linkedin.com/in/karin-hawksworth-5b3513171/" target="_blank"><img
+        class="footer__link__img" src="./images/linkedin" alt="linkedin icon"></a>
   </footer>
 </body>
 
