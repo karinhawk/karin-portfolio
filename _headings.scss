@@ -1,0 +1,10 @@
+@use "_base" as *;
+
+.headings {
+    color: $color-text;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 75px;
+    text-align: center;
+    text-shadow: 2px 2px $color-highlight;
+}
