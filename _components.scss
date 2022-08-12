@@ -8,6 +8,11 @@ a:visited {
     text-decoration: none;
 }
 
+.header__nav__link--contact:hover {
+        color: $color-primary;
+        font-size: 25px;
+}
+
 .headings {}
 
 
@@ -47,16 +52,11 @@ a:visited {
             transition: 0.3s ease-in-out;
 
         }
-        &--contact:hover {
-            color: $color-primary;
-            font-size: 25px;
-        }
     }
     &__nav__link:hover {
         color: $color-secondary;
         font-size: 25px;
     }
-
 }
 
 main {

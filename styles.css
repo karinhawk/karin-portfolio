@@ -23,6 +23,11 @@ a:visited {
   text-decoration: none;
 }
 
+.header__nav__link--contact:hover {
+  color: white;
+  font-size: 25px;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -55,10 +60,6 @@ a:visited {
   text-shadow: 0.5px 0.5px #e4790e;
   color: #ebd8cc;
   transition: 0.3s ease-in-out;
-}
-.header__nav__link--contact:hover {
-  color: white;
-  font-size: 25px;
 }
 .header__nav__link:hover {
   color: #c73953;
