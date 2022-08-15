@@ -11,13 +11,27 @@
     width: 100%;
     height: 60%;
     flex-wrap: wrap;
+    align-items: center;
   }
 
   .header {
     flex-direction: column;
+    width: auto;
+    font-size: 15px;
+    flex-wrap: nowrap;
+    margin: 0;
   }
   .header__logo {
     margin-bottom: 30px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .header__nav__link {
+    font-size: 18px;
+  }
+  .header__nav__link--contact {
+    font-size: 18px;
   }
 
   .intro {
@@ -41,6 +55,11 @@
 
   .skills__flex {
     flex-wrap: wrap;
+    width: auto;
+  }
+
+  .projects__flex {
+    width: auto;
   }
 
   .about {
