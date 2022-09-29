@@ -142,8 +142,8 @@ main .projects__flex__card {
   box-shadow: 5px 5px #c73953;
   background-color: #e4790e;
   height: auto;
-  width: 250px;
-  padding: 10px;
+  width: 35vw;
+  padding: 1rem;
   margin: 50px;
   display: flex;
   flex-direction: column;
@@ -152,8 +152,10 @@ main .projects__flex__card {
 }
 main .projects__flex__card__img {
   height: auto;
-  width: 220px;
-  margin: 10px;
+  width: 30vw;
+}
+main .projects__flex__card__link {
+  background-color: #e4790e;
 }
 main .projects__flex__card__text {
   background-color: #e4790e;
@@ -246,6 +248,10 @@ main .about__text {
 
   .skills__flex {
     flex-wrap: wrap;
+  }
+
+  .projects__flex__card {
+    width: 80vw;
   }
 
   .about {

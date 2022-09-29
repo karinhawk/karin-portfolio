@@ -43,6 +43,10 @@
     flex-wrap: wrap;
   }
 
+  .projects__flex__card {
+    width: 80vw;
+  }
+
   .about {
     height: auto;
   }
