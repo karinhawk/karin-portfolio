@@ -4,6 +4,7 @@
   background-color: white;
   margin: 0;
   padding: 0;
+  width: auto;
 }
 
 .headings {
@@ -35,6 +36,8 @@ a:visited {
   justify-content: space-between;
 }
 .header__logo {
+  width: 10vw;
+  height: 10vh;
   color: #c73953;
   font-size: 60px;
   margin: 10px;
@@ -46,13 +49,17 @@ a:visited {
   -webkit-transform: translateY(6px);
 }
 .header__nav__link {
-  margin: 20px;
+  margin: 30px;
   font-weight: 600;
   font-size: 22px;
   color: #524a45;
   transition: 0.3s ease-in-out;
 }
 .header__nav__link--contact {
+  width: 10vw;
+  height: 10vh;
+  font-size: 22px;
+  font-weight: 600;
   border: 1px solid #e4790e;
   padding: 10px;
   border-radius: 5px;
@@ -63,6 +70,10 @@ a:visited {
 }
 .header__nav__link:hover {
   color: #c73953;
+  font-size: 25px;
+}
+.header__nav__link:hover--contact:hover {
+  color: white;
   font-size: 25px;
 }
 
@@ -88,8 +99,8 @@ main .intro__text--emphasis {
   color: #c73953;
 }
 main .intro__img {
-  width: auto;
-  height: 400px;
+  width: 20vw;
+  height: auto;
   border-radius: 30px;
   box-shadow: 10px 10px #e4790e;
   margin-right: 75px;
@@ -99,13 +110,14 @@ main .skills__heading {
 }
 main .skills__intro {
   text-align: center;
-  padding-bottom: 50px;
   font-style: italic;
+  width: 90%;
+  padding: 0 50px 30px 30px;
 }
 main .skills__flex {
   display: flex;
   justify-content: space-around;
-  width: 90%;
+  width: auto;
   margin: auto;
   padding-top: 20px;
 }
@@ -218,13 +230,27 @@ main .about__text {
     width: 100%;
     height: 60%;
     flex-wrap: wrap;
+    align-items: center;
   }
 
   .header {
     flex-direction: column;
+    width: auto;
+    font-size: 15px;
+    flex-wrap: nowrap;
+    margin: 0;
   }
   .header__logo {
     margin-bottom: 30px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .header__nav__link {
+    font-size: 18px;
+  }
+  .header__nav__link--contact {
+    font-size: 18px;
   }
 
   .intro {
@@ -248,6 +274,11 @@ main .about__text {
 
   .skills__flex {
     flex-wrap: wrap;
+    width: auto;
+  }
+
+  .projects__flex {
+    width: auto;
   }
 
   .projects__flex__card {
